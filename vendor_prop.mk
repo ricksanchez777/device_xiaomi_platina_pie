@@ -311,6 +311,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Property for backup NTP Server
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.backup.ntpServer="0.pool.ntp.org"
+
 # Enable IZat OptInApp overlay
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.overlay.izat.optin=rro
@@ -318,6 +319,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Disable Skip Validate
 PRODUCT_PROPERTY_OVERRIDES += \
     sdm.debug.disable_skip_validate=1
+
+# Make data selection stick in dual SIM devices
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.radio.aosp_usr_pref_sel=true
 
 # Display Properties as per treble compliance
 PRODUCT_PROPERTY_OVERRIDES += \
