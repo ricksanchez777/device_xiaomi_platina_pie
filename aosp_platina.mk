@@ -22,15 +22,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # Inherit from platina device
 $(call inherit-product, device/xiaomi/platina/device.mk)
 
-# Inherit from Miui Camera
-$(call inherit-product, vendor/MiuiCamera/config.mk)
+# Inherit some common AEX stuff.
+$(call inherit-product, vendor/aosp/common.mk)
 
-# Inherit some common PixelExperience stuff.
-export CUSTOM_BUILD_TYPE=OFFICIAL
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_INCLUDE_STOCK_ARCORE := true
-TARGET_GAPPS_ARCH := arm64
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Set Boot Animination Resolution
+TARGET_BOOT_ANIMATION_RES := 2280
 
 PRODUCT_NAME := aosp_platina
 PRODUCT_BRAND := Xiaomi
