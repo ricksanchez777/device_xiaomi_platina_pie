@@ -524,8 +524,4 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl" optional="true">
-            <instance>default</instance>
-        </interface>
-    </hal>
 </compatibility-matrix>
