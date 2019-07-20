@@ -2371,9 +2371,6 @@ vendor/lib64/vendor.display.postproc@1.0.so
 # Power-off alarm
 framework/vendor.qti.hardware.alarm-V1.0-java.jar
 
-# Power-off charging daemon
--sbin/charger:sbin/chargeonlymode;rootfs
-
 # QMI
 etc/permissions/qti_permissions.xml
 etc/permissions/qti_libpermissions.xml
