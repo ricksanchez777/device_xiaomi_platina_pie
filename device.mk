@@ -30,10 +30,6 @@ include $(LOCAL_PATH)/vendor_prop.mk
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
 
-PRODUCT_PACKAGES += \
-    NoCutoutOverlay \
-    NotchBarKiller
-
 PRODUCT_ENFORCE_RRO_TARGETS := \
     framework-res
 
