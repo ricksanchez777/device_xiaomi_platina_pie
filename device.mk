@@ -148,6 +148,10 @@ PRODUCT_PACKAGES += \
     libxml2 \
     GCamera
 
+# NotchBarKiller
+PRODUCT_PACKAGES += \
+    NotchBarKiller
+
 # Charger
 PRODUCT_PACKAGES += \
     init.leds.sh
