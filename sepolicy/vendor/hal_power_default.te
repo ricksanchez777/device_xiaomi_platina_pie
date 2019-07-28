@@ -16,6 +16,7 @@ vndbinder_use(hal_power_default)
 
 allow hal_power_default debugfs_easel:dir search;
 allow hal_power_default debugfs_easel:file r_file_perms;
+allow hal_power_default debugfs:file { read };
 
 allow hal_power_default proc_touchpanel:dir { search };
 allow hal_power_default proc_touchpanel:file { rw_file_perms };
