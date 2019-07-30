@@ -124,14 +124,6 @@ LOCAL_SRC_FILES    := bin/init.copy_macaddress.sh
 LOCAL_MODULE_PATH  := $(TARGET_OUT_VENDOR_EXECUTABLES)
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE       := init.leds.sh
-LOCAL_MODULE_TAGS  := optional eng
-LOCAL_MODULE_CLASS := ETC
-LOCAL_SRC_FILES    := bin/init.leds.sh
-LOCAL_MODULE_PATH  := $(TARGET_OUT_VENDOR_ETC)
-include $(BUILD_PREBUILT)
-
 # Offmode charging
 include $(CLEAR_VARS)
 LOCAL_MODULE := chargeonlymode
