@@ -143,7 +143,7 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl:32 \
     android.hardware.camera.provider@2.4-service \
     libxml2 \
-    GCamera
+    Snap
 
 # NotchBarKiller
 PRODUCT_PACKAGES += \
@@ -180,6 +180,10 @@ PRODUCT_PACKAGES += \
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+# MIUI Offmode charging
+PRODUCT_PACKAGES += \
+    chargeonlymode
 
 # HotwordEnrollement app permissions
 PRODUCT_COPY_FILES += \
@@ -226,8 +230,7 @@ PRODUCT_PACKAGES += \
 
 # Health
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.0-service \
-    chargeonlymode
+    android.hardware.health@2.0-service
 
 # HIDL
 PRODUCT_PACKAGES += \

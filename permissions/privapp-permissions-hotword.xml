@@ -32,3 +32,4 @@
         <permission name="android.permission.READ_PRECISE_PHONE_STATE"/>
         <permission name="android.permission.SUBSTITUTE_NOTIFICATION_APP_NAME"/>
     </privapp-permissions>
+</permissions>
