@@ -96,6 +96,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.demo.hdmirotationlock=false \
     debug.sf.recomputecrop=0
 
+# UI
+PRODUCT_PROPERTY_OVERRIDES += \
+sys.use_fifo_ui=1
+
 # ro.hdmi.enable=true
 # System props for the cne module
 PRODUCT_PROPERTY_OVERRIDES += \
