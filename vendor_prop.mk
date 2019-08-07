@@ -239,10 +239,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.wfd.virtual=0
 
-# Property for vendor specific library
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.at_library=libqti-at.so
-
 # Min/max cpu in core control
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.vendor.qti.core_ctl_min_cpu=2
@@ -255,11 +251,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Property to enable VDS WFD solution
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.hwc.enable_vds=1
-
-# Settings to enable sensors
-# Device Orientation sensor
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.sensors.dev_ori=false
 
 # Persistent Motion Detector
 PRODUCT_PROPERTY_OVERRIDES += \
