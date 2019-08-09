@@ -22,13 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk
 # Inherit from platina device
 $(call inherit-product, device/xiaomi/platina/device.mk)
 
-# Inherit some common AEX stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+# Inherit some common HavocOS stuff.
+$(call inherit-product, vendor/havoc/config/common.mk)
 
-# Set Boot Animination Resolution
-TARGET_BOOT_ANIMATION_RES := 2280
-
-PRODUCT_NAME := aosp_platina
+PRODUCT_NAME := havoc_platina
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := platina
 PRODUCT_MANUFACTURER := Xiaomi
@@ -44,3 +41,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT="google/walleye/walleye:9/PQ3A.190605.003/5524043:user/release-keys"
 
 TARGET_VENDOR := Xiaomi
+
+# Official
+HAVOC_BUILD_TYPE=Official
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.havoc.maintainer=riquebarros
