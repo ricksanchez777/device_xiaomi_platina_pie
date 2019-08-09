@@ -473,3 +473,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.colorpick_adjust=true \
     ro.df.effect.conflict=1 \
     persist.vendor.df.extcolor.proc=0
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.havoc.maintainer=RiqueBarros

@@ -43,7 +43,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 TARGET_VENDOR := Xiaomi
 
 # Official
-HAVOC_BUILD_TYPE=Official
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.havoc.maintainer=riquebarros
+export export HAVOC_BUILD_TYPE=Official
