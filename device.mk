@@ -148,10 +148,6 @@ PRODUCT_PACKAGES += \
     libxml2 \
     Camera2
 
-# NotchBarKiller
-PRODUCT_PACKAGES += \
-    NotchBarKiller
-
 # CNE
 PRODUCT_PACKAGES += \
     cneapiclient \
