@@ -1,1 +1,2 @@
+#============= surfaceflinger ==============
 allow surfaceflinger mediacodec:binder call;
