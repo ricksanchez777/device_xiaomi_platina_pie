@@ -152,7 +152,6 @@
 # Set AudioFlinger client heap size
     vendor.audio_hal.in_period_size=144 
     vendor.audio_hal.period_multiplier=3 
-    vendor.audio.adm.buffering.ms=
 
 #add for dirac algo tsx 9/12
     persist.dirac.acs.controller=qem 
