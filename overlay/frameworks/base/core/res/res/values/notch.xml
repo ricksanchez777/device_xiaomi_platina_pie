@@ -35,5 +35,5 @@
           To facilitate writing device-independent emulation overlays, the marker `@dp` can be
          appended after the path string to interpret coordinates in dp instead of px units.
          Note that a physical cutout should be configured in pixels for the best results. -->
-	<string translatable="false" name="config_mainBuiltInDisplayCutout">M -150,0 L -150,85 L 150,85 L 150,0 Z</string>
+	<string translatable="false" name="config_mainBuiltInDisplayCutout">M -150,0 L -150,84 L 150,84 L 150,0 Z</string>
 </resources>
